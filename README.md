@@ -28,7 +28,7 @@ and builds NMEA strings with the discussed format ($PVLBL), where:
 - targetDataID - ID of the value, requested from the remote uWAVE modem
 - targetDataValue - value, requested from the remote uWAVE modem
 - propagationTime - the time of underwater acoustic signal propagation between the local and the remote modems
-- MSR - main peak to sidelobe ratio of the remote answer in dB (values more than 17 dB are good)  
+- MSR - main lobe to side peak ratio of the remote answer in dB (values more than 17 dB are good)  
 
 All the positioning algorithms are implemented in [UCNLNav library](https://github.com/ucnl/UCNLNav)  
 Also, to build this project you will need some extra libraries:
