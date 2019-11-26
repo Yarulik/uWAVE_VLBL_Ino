@@ -1,7 +1,10 @@
 # uWAVE_VLBL_Ino
 uWAVE and Arduino UNO Virtual long baseline positioning demo application
 
-This application demonstrates principles of underwater virtual long baseline navigation (positioning).  
+This application demonstrates principles of underwater virtual long baseline navigation (positioning),
+when a static responder's position can be estimated by a number of distance (time-of-flight, TOF) measurmements
+from different known locations.
+
 Basically, the app parses an NMEA string from a serial port with following format:
 
 ### $PVLBL,ownLat,ownLon,ownDepth,ownBatV,targetDataID,targetDataValue,propagationTime,MSR
