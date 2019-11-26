@@ -4,7 +4,7 @@ uWAVE and Arduino UNO Virtual long baseline positioning demo application
 This application demonstrates principles of underwater virtual long baseline navigation (positioning).  
 Basically, the app parses an NMEA string from a serial port with following format:
 
-## $PVLBL,ownLat,ownLon,ownDepth,ownBatV,targetDataID,targetDataValue,propagationTime,MSR
+### $PVLBL,ownLat,ownLon,ownDepth,ownBatV,targetDataID,targetDataValue,propagationTime,MSR
 
 which comes from an Arduino UNO board, programmed with following [sketch](https://github.com/ucnl/uWAVE_Arduino/blob/master/uWAVE_Example_3.ino)
 
